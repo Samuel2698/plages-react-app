@@ -69,3 +69,13 @@
         max-width: 275px;
     }
 }
+
+@media screen and (max-width: 640px) {
+    .form input[type=text] {
+        max-width: 160px;
+    }
+
+    #video {
+        width: 105%
+    }
+}

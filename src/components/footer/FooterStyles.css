@@ -7,6 +7,7 @@
 
 .footer h3 {
     color: #5651e5;
+    margin-left: 20px;
 }
 
 .footer .top, .bottom {
@@ -33,6 +34,7 @@
 
 .footer ul {
     display: flex;
+    cursor: pointer;
 }
 
 .footer li {
@@ -43,4 +45,16 @@
     .footer ul {
         flex-direction: column;
     }
+}
+
+@media screen and (max-width: 640px) {
+    .footer {
+        width: 102%;
+    }
+
+    .footer h3 {
+        color: #5651e5;
+        margin-right: 50px;
+    }
+    
 }
