@@ -1,19 +1,20 @@
 .carousel {
-    padding: 2rem 0;
+  padding: 2rem 0;
 }
 
 .carousel img {
-    height: 90vh;
-    object-fit: cover;
+  height: 90vh;
+  object-fit: cover;
 }
 
-.thumbs-wrapper, .carousel-status {
-    display: none;
+.thumbs-wrapper,
+.carousel-status {
+  display: none;
 }
 
 @media screen and (max-width: 720px) {
-    .carousel img {
-        height: 40vh;
-        object-fit: cover;
-    }
+  .carousel img {
+    height: 40vh;
+    object-fit: cover;
+  }
 }
